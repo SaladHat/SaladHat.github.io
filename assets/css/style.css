@@ -5,7 +5,7 @@
   --hover-color: #35f2ff;
   --font-color: #00126c;
   --bg-color1: #fffbd4; 
-  --bg-color2: #ffdcea; 
+  --bg-color2: #ff0066; 
   --bg-color3: #e0f7ff;
   --heading-color: #292922;
   --shadow-color1: rgba(0,0,0,0.18);
@@ -75,10 +75,10 @@ body {
 .center {
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  padding: 10px;
+  width: 75%;
+  padding: 25px;
+  text-align: center;
 }
-
 
 
 
@@ -169,12 +169,13 @@ tt {
   font-size: 4.5em;
   font-weight: 500;
   margin-bottom: 0;
-  color: #16862b;
+  color: #0da128;
 }
 .subtitle {
   font-size: 2.25em;
   font-weight: 500;
   margin-bottom: 0;
+  color: #0da128;
 }
 
 .navtext {
@@ -188,6 +189,7 @@ p {
   font-weight: 300;
   line-height: 1.4;
   max-width: 26em;
+  color: #116f3a;
 }
 
 .intro a {
@@ -204,13 +206,23 @@ p {
 }
 
 
+
+
+
+
 .footer {
   color: var(--font-color);
   font-size: 0.8rem;
 	text-align: center;
   margin: 3rem;
-  margin-bottom: bottom;
+  margin-bottom: 9px;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;  
 }
+
 
 .footer a {
   color: var(--link-color);
@@ -258,6 +270,10 @@ p {
 
 .fa-youtube {
   color: #ff0055;
+}
+
+.fa-discord {
+  color: #7289da;
 }
 
 
