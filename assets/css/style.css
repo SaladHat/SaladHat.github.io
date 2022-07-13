@@ -3,7 +3,7 @@
   --secondary-color: #d5d5d5;
   --link-color: #287dfc;
   --hover-color: #35f2ff;
-  --font-color: #00126c;
+  --font-color: #0da128;
   --bg-color1: #fffbd4; 
   --bg-color2: #ff0066; 
   --bg-color3: #e0f7ff;
@@ -41,7 +41,7 @@ body {
   -webkit-box-direction: normal;
           flex-direction: column;
 
-	background: linear-gradient(-45deg, var(--bg-color1), var(--bg-color2), var(--bg-color3), var(--bg-color4));
+  background: linear-gradient(140deg, rgba(95, 95, 95, 0.27) 0%, #363636 39.712%, rgba(114, 113, 113, 0.34) 50.596%, transparent 100%), linear-gradient(102deg, #3f3e3e 0%, #040404 31.45%, #353434 100%);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
           animation: gradient 15s ease infinite;
@@ -80,7 +80,12 @@ body {
   text-align: center;
 }
 
-
+.bgimg {
+  background-image: linear-gradient( 333deg, rgba(34, 193, 195, 1) 0%, rgba(224, 45, 253, 1) 100%);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  }
 
 ul {
   list-style-type: none;
@@ -111,30 +116,6 @@ li a:hover {
 }
 
 
-.logo {
-  font-size: 8rem;
-  text-shadow: 0px 0px 100px;
-  animation: animate 2s infinite linear;
-}
-
-@keyframes animate {
-  0%,
-  100% {
-    color: lawngreen
-  }
-  25% {
-    color: deeppink
-  }
-  50% {
-    color: deepskyblue
-  }
-  75% {
-    color: white
-  }
-}
-
-
-
 
 /*
     Site container
@@ -157,9 +138,6 @@ li a:hover {
   }
 }
 
-
-
-
 h1 {
   font-size: 4.5em;
   font-weight: 500;
@@ -169,7 +147,7 @@ tt {
   font-size: 4.5em;
   font-weight: 500;
   margin-bottom: 0;
-  color: #0da128;
+  color: #2da643;
 }
 .subtitle {
   font-size: 2.25em;
@@ -265,7 +243,7 @@ p {
 }
 
 .fa-github {
-  color: #24292e;
+  color: #ffffff;
 }
 
 .fa-youtube {
