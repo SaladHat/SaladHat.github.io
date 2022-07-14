@@ -10,6 +10,7 @@
   --heading-color: #292922;
   --shadow-color1: rgba(0,0,0,0.18);
   --shadow-color2: rgba(0,0,0,0.15);
+  --green-link-color: #16862b;
 }
 
 [data-theme="dark"] {
@@ -46,6 +47,17 @@ body {
 	-webkit-animation: gradient 15s ease infinite;
           animation: gradient 15s ease infinite;
   color: var(--font-color);
+}
+
+@keyframes typingEffect {
+  from {opacity: 1;};
+  to {opacity: 0;};
+}
+ 
+#typing-effect {   
+  animation: typingEffect .5s infinite alternate;
+  color: black;
+  font-weight: bolder;
 }
 
 @-webkit-keyframes gradient {
@@ -163,9 +175,9 @@ tt {
 }
 
 p {
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 0.3;
   max-width: 26em;
   color: #116f3a;
 }
